@@ -8,7 +8,7 @@ export default function Hero() {
       {/* IMAGEM USANDO TAG <IMG> - POSIÇÃO RESPONSIVA */}
       <div className="absolute inset-0 z-0 flex items-center justify-center">
         <img 
-          src="https://i.ibb.co/tp8wXRVr/Design-sem-nome-30-removebg-preview.png" 
+          src="https://i.ibb.co/5C56DmW/Sem-nome-1080-x-1920-px-1920-x-1080-px.png" 
           alt="Martini Oficina Background"
           className="w-full h-full object-contain md:object-cover object-[center_30%] md:object-center"
         />

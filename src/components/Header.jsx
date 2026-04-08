@@ -35,7 +35,7 @@ export default function Header() {
             <div className="relative">
               <div className="absolute inset-0 bg-red-600 blur-2xl opacity-0 group-hover:opacity-40 transition-opacity duration-500 rounded-full" />
               <img 
-                src="https://i.ibb.co/Pvp1vS68/Design-sem-nome-30.png" 
+                src="https://i.ibb.co/5C56DmW/Sem-nome-1080-x-1920-px-1920-x-1080-px.png" 
                 alt="Martini Oficina Logo" 
                 className={`transition-all duration-500 object-contain ${
                   scrolled ? 'h-10 sm:h-12 md:h-14' : 'h-12 sm:h-16 md:h-20'
@@ -94,7 +94,7 @@ export default function Header() {
         }`}>
           <div className="flex flex-col items-center justify-center h-full gap-6 sm:gap-8 md:gap-10 px-6">
             <img 
-              src="https://i.ibb.co/tp8wXRVr/Design-sem-nome-30-removebg-preview.png" 
+              src="https://i.ibb.co/5C56DmW/Sem-nome-1080-x-1920-px-1920-x-1080-px.png" 
               alt="Logo" 
               className="h-24 sm:h-28 md:h-32 w-auto mb-4"
             />
