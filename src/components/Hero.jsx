@@ -17,14 +17,15 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#1a2b45] via-[#1a2b45]/40 to-transparent z-10" />
       </div>
 
-      {/* CONTEÚDO - FIXADO NA PARTE INFERIOR */}
-      <div className="relative z-20 w-full container mx-auto px-4 sm:px-6 pb-8 sm:pb-12 md:pb-16 lg:pb-20">
+      {/* CONTEÚDO - SUBINDO APENAS NO MOBILE */}
+      <div className="relative z-20 w-full container mx-auto px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
           
-          <div className="flex flex-col gap-8 sm:gap-10 md:gap-14 items-center">
+          {/* mt-0 no desktop, mt-8 no mobile para subir */}
+          <div className="flex flex-col gap-8 sm:gap-10 md:gap-14 items-center mt-8 md:mt-0">
             
-            {/* BOTÕES - RESPONSIVOS E CENTRALIZADOS */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full justify-center px-8 sm:px-0">
+            {/* BOTÕES */}
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full justify-center px-4 sm:px-0">
               <a 
                 href="#agendamento" 
                 className="px-8 sm:px-12 md:px-16 py-4 sm:py-5 md:py-6 bg-red-600 hover:bg-red-700 text-white text-base sm:text-lg md:text-xl font-black uppercase tracking-[0.2em] sm:tracking-[0.25em] rounded-2xl transition-all shadow-[0_20px_50px_rgba(220,38,38,0.5)] hover:scale-105 active:scale-95 text-center"
@@ -33,14 +34,14 @@ export default function Hero() {
               </a>
               <a 
                 href="#servicos" 
-                className="px-8 sm:px-12 md:px-12 py-4 sm:py-5 md:py-6 border-2 border-white/40 hover:bg-white/10 text-white text-base sm:text-lg md:text-xl font-black uppercase tracking-[0.2em] sm:tracking-[0.25em] rounded-2xl backdrop-blur-md transition-all hover:border-white shadow-2xl text-center"
+                className="px-8 sm:px-12 md:px-16 py-4 sm:py-5 md:py-6 border-2 border-white/40 hover:bg-white/10 text-white text-base sm:text-lg md:text-xl font-black uppercase tracking-[0.2em] sm:tracking-[0.25em] rounded-2xl backdrop-blur-md transition-all hover:border-white shadow-2xl text-center"
               >
                 Nossos Serviços
               </a>
             </div>
 
-            {/* INFORMAÇÕES DE RODAPÉ - RESPONSIVAS */}
-            <div className="flex flex-wrap justify-center gap-x-6 sm:gap-x-8 md:gap-x-12 gap-y-4 sm:gap-y-6 pt-6 sm:pt-8 md:pt-10 border-t border-white/10 w-full max-w-6xl">
+            {/* INFORMAÇÕES - padding ajustado apenas no mobile */}
+            <div className="flex flex-wrap justify-center gap-x-6 sm:gap-x-8 md:gap-x-12 gap-y-4 sm:gap-y-6 pt-6 sm:pt-8 md:pt-10 border-t border-white/10 w-full max-w-6xl mt-4 md:mt-0">
               
               <div className="flex items-center gap-2 sm:gap-3 group cursor-default">
                 <MapPin size={18} className="text-red-600 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform flex-shrink-0" />
