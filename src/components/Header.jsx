@@ -94,7 +94,7 @@ export default function Header() {
         }`}>
           <div className="flex flex-col items-center justify-center h-full gap-6 sm:gap-8 md:gap-10 px-6">
             <img 
-              src="https://i.ibb.co/Pvp1vS68/Design-sem-nome-30.png" 
+              src="https://i.ibb.co/tp8wXRVr/Design-sem-nome-30-removebg-preview.png" 
               alt="Logo" 
               className="h-24 sm:h-28 md:h-32 w-auto mb-4"
             />
