@@ -18,7 +18,7 @@ export default function About() {
         <div className="text-center mb-12 sm:mb-16 md:mb-20">
           <span className="text-red-600 text-xs sm:text-sm md:text-base uppercase tracking-[0.3em] sm:tracking-[0.4em] font-black">História de Excelência</span>
           <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black mt-3 sm:mt-4 mb-4 sm:mb-6 text-white tracking-tighter italic">
-            MARTINI <span className="text-red-600 not-italic">OFICINA</span>
+            OFICINA SITE <span className="text-red-600 not-italic">OFICINA</span>
           </h2>
           <div className="w-24 sm:w-32 h-1 bg-red-600 mx-auto rounded-full" />
         </div>
@@ -49,7 +49,7 @@ export default function About() {
             
             <div className="space-y-4 sm:space-y-6">
               <p className="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed font-medium">
-                Com anos de experiência em <span className="text-white font-bold">São José dos Pinhais</span>, a Martini Oficina 
+                Com anos de experiência em <span className="text-white font-bold">São José dos Pinhais</span>, a oficina
                 nasceu do compromisso absoluto com a performance. Não somos apenas uma oficina; somos o centro tecnológico para o seu veículo.
               </p>
               
@@ -64,7 +64,7 @@ export default function About() {
               <MapPin size={20} className="text-red-600 flex-shrink-0 mt-1" />
               <div className="flex flex-col">
                 <span className="text-white font-black text-xs sm:text-sm uppercase tracking-widest">Localização Privilegiada</span>
-                <span className="text-gray-400 text-xs sm:text-sm md:text-base font-bold italic">R. Joaquim Ferreira das Dores, 29 - Santo Antônio</span>
+                <span className="text-gray-400 text-xs sm:text-sm md:text-base font-bold italic">R. Oficina, 29 - Santo Antônio</span>
               </div>
             </div>
           </div>

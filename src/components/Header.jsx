@@ -78,7 +78,7 @@ export default function Header() {
             <div className="relative">
               <div className="absolute inset-0 bg-red-600 blur-2xl opacity-0 group-hover:opacity-40 transition-opacity duration-500 rounded-full" />
               <img 
-                src="https://i.ibb.co/5C56DmW/Sem-nome-1080-x-1920-px-1920-x-1080-px.png" 
+                src="https://i.ibb.co/b0y1bHv/Design-sem-nome-60.png" 
                 alt="Martini Oficina Logo" 
                 className={`transition-all duration-500 object-contain ${
                   scrolled ? 'h-10 sm:h-12 md:h-14' : 'h-12 sm:h-16 md:h-20'
@@ -88,7 +88,7 @@ export default function Header() {
             
             <div className="flex flex-col border-l-2 border-red-600/30 pl-2 sm:pl-3 md:pl-4">
               <span className="text-white font-black text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-tighter leading-none">
-                MARTINI<span className="text-red-600">OFICINA</span>
+                VENDO SITE<span className="text-red-600">OFICINA</span>
               </span>
               <span className="text-[8px] sm:text-[10px] md:text-xs text-gray-400 uppercase tracking-[0.2em] sm:tracking-[0.3em] font-bold mt-0.5 sm:mt-1 group-hover:text-red-500 transition-colors">
                 Performance & Estética
@@ -114,7 +114,7 @@ export default function Header() {
             ))}
             
             <a
-              href="https://wa.me/5541998972311"
+              href="https://wa.me/5541999999999"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4 xl:ml-8 px-5 xl:px-8 py-3 xl:py-4 bg-red-600 hover:bg-red-700 text-white text-xs xl:text-sm font-black uppercase tracking-widest rounded-xl transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_10px_20px_rgba(220,38,38,0.4)] flex items-center gap-2 xl:gap-3 group relative overflow-hidden"
@@ -144,7 +144,7 @@ export default function Header() {
         >
           <div className="flex flex-col items-center justify-center h-full gap-6 sm:gap-8 md:gap-10 px-6 overflow-y-auto">
             <img 
-              src="https://i.ibb.co/5C56DmW/Sem-nome-1080-x-1920-px-1920-x-1080-px.png" 
+              src="https://i.ibb.co/b0y1bHv/Design-sem-nome-60.png" 
               alt="Logo" 
               className="h-24 sm:h-28 md:h-32 w-auto mb-4 cursor-pointer"
               onClick={() => handleLinkClick("#inicio")}

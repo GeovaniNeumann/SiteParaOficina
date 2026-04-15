@@ -18,13 +18,13 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-white font-black text-xl sm:text-2xl tracking-tighter leading-none italic">
-                  MARTINI<span className="text-red-600 not-italic">OFICINA</span>
+                  OFICINA SITE<span className="text-red-600 not-italic">OFICINA</span>
                 </h3>
                 <p className="text-[8px] sm:text-[10px] uppercase tracking-[0.3em] sm:tracking-[0.4em] text-gray-500 font-black mt-1">Performance & Estética</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed font-medium">
-              Excelência técnica, transparência absoluta e tecnologia de ponta. O cuidado que seu veículo merece em <span className="text-white">São José dos Pinhais</span>.
+              Excelência técnica, transparência absoluta e tecnologia de ponta. O cuidado que seu veículo merece em <span className="text-white">Sua cidade</span>.
             </p>
             <div className="flex items-center gap-2 text-red-600 font-black text-[10px] sm:text-xs uppercase tracking-widest bg-red-600/5 p-2 sm:p-3 rounded-lg border border-red-600/10 inline-flex">
               <ShieldCheck size={14} className="sm:w-4 sm:h-4" />
@@ -42,13 +42,13 @@ export default function Footer() {
               <li className="flex items-start gap-3 sm:gap-4 group">
                 <MapPin size={18} className="text-red-600 flex-shrink-0 mt-1 group-hover:scale-110 transition-transform sm:w-5 sm:h-5" />
                 <span className="text-sm sm:text-base font-bold leading-tight">
-                  R. Joaquim Ferreira das Dores, 29<br />
-                  <span className="text-gray-500 font-medium">S.J. dos Pinhais — PR</span>
+                  R. da oficina, 29<br />
+                  <span className="text-gray-500 font-medium">cidade — PR</span>
                 </span>
               </li>
               <li className="flex items-center gap-3 sm:gap-4 group">
                 <Phone size={18} className="text-red-600 group-hover:scale-110 transition-transform sm:w-5 sm:h-5" />
-                <span className="text-lg sm:text-xl font-black text-white">(41) 99897-2311</span>
+                <span className="text-lg sm:text-xl font-black text-white">(41) 99999-9999</span>
               </li>
               <li className="flex items-center gap-3 sm:gap-4 group">
                 <Clock size={18} className="text-red-600 group-hover:scale-110 transition-transform sm:w-5 sm:h-5" />
@@ -97,7 +97,7 @@ export default function Footer() {
             <div className="bg-gradient-to-br from-[#1e3252] to-[#1a2b45] p-4 sm:p-6 rounded-xl sm:rounded-2xl border-l-4 sm:border-l-8 border-red-600 shadow-2xl">
               <h4 className="text-white text-[10px] sm:text-xs font-black uppercase tracking-[0.2em] sm:tracking-[0.3em] mb-2 opacity-70">Emergência / Guincho:</h4>
               <p className="text-red-500 font-black text-xl sm:text-2xl tracking-tighter italic break-words">
-                (41) 99897-2311
+                (41) 99999-9999
               </p>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* Bottom Bar - COM LINK DO PORTFÓLIO */}
         <div className="border-t border-white/5 mt-12 sm:mt-16 md:mt-20 pt-6 sm:pt-8 md:pt-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-6 text-gray-500 text-[10px] sm:text-xs font-black uppercase tracking-[0.2em] sm:tracking-[0.3em]">
-            <p className="text-center">&copy; 2026 Martini Oficina — Excelência Automotiva</p>
+            <p className="text-center">&copy; 2026  Oficina — Excelência Automotiva</p>
             <div className="flex gap-4 sm:gap-8 flex-wrap justify-center items-center">
               <span className="hover:text-white cursor-pointer transition-colors">Privacidade</span>
               <span className="hover:text-white cursor-pointer transition-colors">Termos</span>

@@ -14,7 +14,7 @@ export default function BookingForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const whatsappMessage = 
-      `*MARTINI OFICINA - AGENDAMENTO*%0A%0A` +
+      `*OFICINA SITE - AGENDAMENTO*%0A%0A` +
       `*Nome:* ${formData.name}%0A` +
       `*Telefone:* ${formData.phone}%0A` +
       `*Veículo:* ${formData.carModel}%0A` +
@@ -23,7 +23,7 @@ export default function BookingForm() {
       `*Mensagem:* ${formData.message || "Nenhuma"}%0A%0A` +
       `_Solicitação enviada via site_`;
     
-    window.open(`https://wa.me/5541998972311?text=${whatsappMessage}`, "_blank");
+    window.open(`https://wa.me/5541999999999?text=${whatsappMessage}`, "_blank");
   };
 
   return (
@@ -75,7 +75,7 @@ export default function BookingForm() {
                   type="tel"
                   required
                   className="w-full px-4 sm:px-5 md:px-6 py-3 sm:py-4 md:py-5 rounded-xl sm:rounded-2xl bg-[#1a2b45] border-2 border-white/5 text-white text-base sm:text-lg font-bold placeholder-gray-500 focus:outline-none focus:border-red-600 focus:ring-4 focus:ring-red-600/10 transition-all"
-                  placeholder="(41) 99897-2311"
+                  placeholder="(41) 99999-9999"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 />

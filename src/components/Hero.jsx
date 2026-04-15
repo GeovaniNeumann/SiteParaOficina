@@ -8,7 +8,7 @@ export default function Hero() {
       {/* IMAGEM USANDO TAG <IMG> - POSIÇÃO RESPONSIVA */}
       <div className="absolute inset-0 z-0 flex items-center justify-center">
         <img 
-          src="https://i.ibb.co/5C56DmW/Sem-nome-1080-x-1920-px-1920-x-1080-px.png" 
+          src="https://i.ibb.co/b0y1bHv/Design-sem-nome-60.png" 
           alt="Martini Oficina Background"
           className="w-full h-full object-contain md:object-cover object-[center_30%] md:object-center"
         />
@@ -63,7 +63,7 @@ export default function Hero() {
                 <Phone size={18} className="text-red-600 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform flex-shrink-0" />
                 <div className="flex flex-col items-start">
                   <span className="text-[8px] sm:text-[10px] text-gray-500 font-black uppercase tracking-widest leading-none mb-1">WhatsApp</span>
-                  <span className="text-xs sm:text-sm md:text-base font-black text-white uppercase tracking-wider">(41) 99897-2311</span>
+                  <span className="text-xs sm:text-sm md:text-base font-black text-white uppercase tracking-wider">(41) 99999-9999</span>
                 </div>
               </div>
             </div>
