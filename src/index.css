@@ -48,11 +48,11 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00f2fe;
+  background: #0a5a88;
 }
 
 /* Selection color */
 ::selection {
-  background-color: #00f2fe;
+  background-color: #0a5a88;
   color: #000000;
 }

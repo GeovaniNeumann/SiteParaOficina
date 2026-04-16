@@ -75,17 +75,6 @@ export default function Header() {
               handleLinkClick("#inicio");
             }}
           >
-            <div className="relative">
-              <div className="absolute inset-0 bg-red-600 blur-2xl opacity-0 group-hover:opacity-40 transition-opacity duration-500 rounded-full" />
-              <img 
-                src="https://i.ibb.co/b0y1bHv/Design-sem-nome-60.png" 
-                alt="Martini Oficina Logo" 
-                className={`transition-all duration-500 object-contain ${
-                  scrolled ? 'h-10 sm:h-12 md:h-14' : 'h-12 sm:h-16 md:h-20'
-                }`}
-              />
-            </div>
-            
             <div className="flex flex-col border-l-2 border-red-600/30 pl-2 sm:pl-3 md:pl-4">
               <span className="text-white font-black text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-tighter leading-none">
                 VENDO SITE<span className="text-red-600">OFICINA</span>
@@ -136,19 +125,25 @@ export default function Header() {
           </button>
         </div>
 
-        {/* MOBILE MENU - FULLSCREEN COM SCROLL TRAVADO */}
+        {/* MOBILE MENU - FULLSCREEN COM APENAS A IMAGEM DE FUNDO */}
         <div 
-          className={`lg:hidden fixed inset-0 z-40 bg-[#1a2b45] transition-all duration-500 ease-in-out ${
+          className={`lg:hidden fixed inset-0 z-40 transition-all duration-500 ease-in-out ${
             isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
           }`}
         >
-          <div className="flex flex-col items-center justify-center h-full gap-6 sm:gap-8 md:gap-10 px-6 overflow-y-auto">
+          {/* APENAS A IMAGEM DE FUNDO DO MENU MOBILE - SEM LOGO */}
+          <div className="absolute inset-0 z-0">
             <img 
-              src="https://i.ibb.co/b0y1bHv/Design-sem-nome-60.png" 
-              alt="Logo" 
-              className="h-24 sm:h-28 md:h-32 w-auto mb-4 cursor-pointer"
-              onClick={() => handleLinkClick("#inicio")}
+              src="https://i.ibb.co/vvTqRKH1/Sem-nome-800-x-1200-px-2.png" 
+              alt="Menu Background"
+              className="w-full h-full object-cover"
             />
+            {/* OVERLAY ESCURO PARA MELHOR LEGIBILIDADE */}
+            <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+          </div>
+
+          {/* CONTEÚDO DO MENU - SEM A LOGO */}
+          <div className="relative z-10 flex flex-col items-center justify-center h-full gap-6 sm:gap-8 md:gap-10 px-6 overflow-y-auto">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -163,14 +158,14 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="https://wa.me/5541998972311"
+              href="https://wa.me/5541999999999"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 sm:mt-6 px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 bg-red-600 text-white rounded-2xl text-base sm:text-lg md:text-xl font-black uppercase tracking-widest flex items-center gap-3 sm:gap-4 shadow-2xl hover:bg-red-700 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               <Phone size={22} />
-              (41) 99897-2311
+              (41) 99999-9999
             </a>
           </div>
         </div>

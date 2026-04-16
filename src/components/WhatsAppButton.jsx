@@ -38,7 +38,7 @@ export default function WhatsAppButton() {
           <div className="flex flex-col pr-1 sm:pr-2">
             <span className="text-[8px] sm:text-[10px] font-black uppercase tracking-widest text-red-600">Online</span>
             <p className="text-[10px] sm:text-xs font-bold text-slate-700 leading-tight">
-              Dúvidas? Fale com a Martini Oficina!
+              Dúvidas? Fale com a Oficina!
             </p>
           </div>
           <div className="absolute -bottom-1 right-4 sm:right-6 w-2 h-2 sm:w-3 sm:h-3 bg-white rotate-45 border-r border-b border-gray-100" />
