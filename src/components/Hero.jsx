@@ -8,7 +8,7 @@ export default function Hero() {
       {/* IMAGEM GRANDE - COM LIMITE SUPERIOR PARA NÃO INVADIR O HEADER */}
       <div className="absolute inset-0 z-0 flex items-center justify-center top-[80px] md:top-[120px]">
         <img 
-          src="https://i.ibb.co/vvTqRKH1/Sem-nome-800-x-1200-px-2.png" 
+          src="https://i.ibb.co/SXk0vyLk/Design-sem-nome-88.png" 
           alt="Martini Oficina Background"
           className="w-full h-full object-cover md:object-cover object-[center_20%] md:object-center"
         />

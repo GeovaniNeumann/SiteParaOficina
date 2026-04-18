@@ -92,7 +92,7 @@ export default function Gallery() {
               <img src={selectedImage} alt={galleryImages[currentIndex].title} className="max-w-full max-h-[60vh] sm:max-h-[70vh] md:max-h-[75vh] object-contain rounded-2xl sm:rounded-3xl shadow-[0_0_80px_rgba(220,38,38,0.3)] border-4 border-white/10" />
               <div className="mt-6 sm:mt-10 text-center px-4">
                 <h4 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-tighter italic">{galleryImages[currentIndex].title}</h4>
-                <p className="text-red-500 font-black uppercase tracking-[0.3em] sm:tracking-[0.4em] text-xs sm:text-sm mt-2 sm:mt-4">Padrão Martini Oficina</p>
+                <p className="text-red-500 font-black uppercase tracking-[0.3em] sm:tracking-[0.4em] text-xs sm:text-sm mt-2 sm:mt-4">SiteOficina</p>
               </div>
             </div>
           </div>
