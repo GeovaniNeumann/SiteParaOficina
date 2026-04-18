@@ -5,12 +5,20 @@ export default function Hero() {
   return (
     <section id="inicio" className="relative min-h-screen flex flex-col justify-end items-center overflow-hidden bg-[#1a2b45]">
       
-      {/* IMAGEM GRANDE - COM LIMITE SUPERIOR PARA NÃO INVADIR O HEADER */}
+      {/* IMAGEM - Diferente para mobile e desktop */}
       <div className="absolute inset-0 z-0 flex items-center justify-center top-[80px] md:top-[120px]">
+        {/* Imagem para desktop */}
         <img 
-          src="https://i.ibb.co/SXk0vyLk/Design-sem-nome-88.png" 
+          src="https://i.ibb.co/9mGh5th4/Design-sem-nome-96.png" 
           alt="Martini Oficina Background"
-          className="w-full h-full object-cover md:object-cover object-[center_20%] md:object-center"
+          className="hidden md:block w-full h-full object-cover object-center"
+        />
+        
+        {/* Imagem apenas para mobile */}
+        <img 
+          src="https://i.ibb.co/vvTqRKH1/Sem-nome-800-x-1200-px-2.png" 
+          alt="Martini Oficina Background Mobile"
+          className="block md:hidden w-full h-full object-cover object-[center_20%]"
         />
         
         {/* GRADIENTE ESTRATÉGICO - MAIS FORTE NA BASE */}
